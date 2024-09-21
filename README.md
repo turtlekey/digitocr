@@ -1,6 +1,7 @@
 Just one script for ocr the digit(s), recieving the canvas element, the img element, or the img uri.
 
 ```html
+<!DOCTYPE html>
 ...
 <script src="digitocr.js"></script>
 ...
@@ -16,5 +17,6 @@ Just one script for ocr the digit(s), recieving the canvas element, the img elem
 
   ocr.getDigit().then(value => console.log(value));
 </script>
+</html>
 ```
 
